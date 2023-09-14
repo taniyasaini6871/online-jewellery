@@ -5,9 +5,25 @@
 @tailwind utilities;
 
 .font-jost {
-     font-family: "jost";
+  font-family: "jost";
 }
 
 
+.invisible-scrollbar{
+  overflow: auto;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.remove-arrow {
+    -moz-appearance: textfield;
+}
 
 
